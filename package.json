@@ -2,7 +2,7 @@
   "name": "sallabdou-modal-react",
   "description": "A simple basic modal component using react",
   "author": "sallabdou",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "main": "build/index.js",
   "module": "build/index.js",
   "files": [
@@ -34,7 +34,6 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "cross-env": "^7.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
@@ -63,5 +62,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

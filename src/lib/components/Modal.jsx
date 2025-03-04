@@ -1,3 +1,5 @@
+import React from "react";
+
 const modalOverlayStyle = {
     position: "fixed",
     top: 0,

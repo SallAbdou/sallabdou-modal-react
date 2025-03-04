@@ -11,12 +11,12 @@ const App = () => {
 
     return (
         <section className="container">
-            <h1 className="title">Thra Basic Modal React</h1>
+            <h1 className="title">Cliquez pour ouvrir la modale</h1>
             <form onSubmit={handleSubmit}>
                 <button>Click me</button>
             </form>
             <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
-                <p>Employee created successfully!</p>
+                <p>Voici la modale!</p>
             </Modal>
         </section>
     )
