@@ -2,7 +2,7 @@
   "name": "sallabdou-modal-react",
   "description": "A simple basic modal component using react",
   "author": "sallabdou",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "build/index.js",
   "module": "build/index.js",
   "files": [
