@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
+// CSS pour l'arrière-plan de la modale (overlay sombre)
 const modalOverlayStyle = {
   position: "fixed",
   top: 0,
@@ -18,6 +19,9 @@ const modalOverlayStyle = {
   alignItems: "center",
   zIndex: 1000
 };
+
+// CSS pour le contenu de la modale
+
 const modalStyle = {
   backgroundColor: "white",
   padding: "20px",
@@ -26,6 +30,8 @@ const modalStyle = {
   width: "90%",
   maxWidth: "500px"
 };
+
+// CSS pour le bouton de fermeture
 const buttonStyle = {
   marginTop: "10px",
   padding: "8px 16px",
@@ -43,6 +49,8 @@ const Modal = _ref => {
     children
   } = _ref;
   if (!isOpen) return null;
+  // Si la modale n'est pas ouverte, ne retourne rien (null)
+
   return /*#__PURE__*/_react.default.createElement("div", {
     style: modalOverlayStyle
   }, /*#__PURE__*/_react.default.createElement("div", {

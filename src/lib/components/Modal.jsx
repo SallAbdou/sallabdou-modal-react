@@ -1,5 +1,6 @@
 import React from "react";
 
+// CSS pour l'arrière-plan de la modale (overlay sombre)
 const modalOverlayStyle = {
     position: "fixed",
     top: 0,
@@ -13,6 +14,8 @@ const modalOverlayStyle = {
     zIndex: 1000,
 };
 
+// CSS pour le contenu de la modale
+
 const modalStyle = {
     backgroundColor: "white",
     padding: "20px",
@@ -22,6 +25,7 @@ const modalStyle = {
     maxWidth: "500px",
 };
 
+// CSS pour le bouton de fermeture
 const buttonStyle = {
     marginTop: "10px",
     padding: "8px 16px",
@@ -35,6 +39,8 @@ const buttonStyle = {
 
 const Modal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
+    // Si la modale n'est pas ouverte, ne retourne rien (null)
+
 
     return (
         <div style={modalOverlayStyle}>
