@@ -2,7 +2,7 @@
   "name": "sallabdou-modal-react",
   "description": "A simple basic modal component using react",
   "author": "sallabdou",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "build/index.js",
   "module": "build/index.js",
   "files": [
@@ -43,7 +43,8 @@
     "start": "cross-env react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf build && cross-env NODE_ENV=production babel src/lib --out-dir build --copy-files --extensions \".js,.jsx\"",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate-docs": "jsdoc -c ./conf.json"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +65,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "jsdoc": "^4.0.4"
   }
 }
