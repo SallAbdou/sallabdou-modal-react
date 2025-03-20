@@ -49,7 +49,6 @@ const buttonStyle = {
  * Composant Modal permettant d'afficher une boîte de dialogue.
  *
  * @component
- * @param {Object} props - Les propriétés du composant.
  * @param {boolean} props.isOpen - Indique si la modale est ouverte.
  * @param {Function} props.onClose - Fonction appelée pour fermer la modale.
  * @param {React.ReactNode} props.children - Contenu affiché à l'intérieur de la modale.
